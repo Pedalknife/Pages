@@ -1,6 +1,53 @@
 # Site settings
 title: Your Cybersecurity Portfolio
-description: A showcase of my cybersecurity projects and skills.
+description: A showcase of my cybersecurity projects, skills, and achievements.
 
 # Build settings
 theme: jekyll-theme-cayman # Choose a theme for your GitHub Pages site
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Permalinks
+permalink: /:title/
+
+# Customize navigation links
+header_pages:
+  - Home: /
+  - Projects: /projects
+  - Blog: /blog
+  - Contact: /contact
+
+# SEO
+seo:
+  name: Your Name
+  social:
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/your-profile
+    - title: Twitter
+      url: https://twitter.com/your-profile
+
+# Analytics (Optional)
+google_analytics: UA-XXXXXXXXX-X # Your Google Analytics Tracking ID
+
+# GitHub Repository
+repository:
+  url: https://pedalknife.github.io/Pages/
+
+# Customize footer
+footer:
+  links:
+    - title: Privacy Policy
+      url: /privacy-policy
+    - title: Terms of Service
+      url: /terms-of-service
+    - title: Accessibility Statement
+      url: /accessibility-statement
+
+# Customization options
+logo: /assets/images/logo.png # Path to your logo image
+favicon: /assets/images/favicon.ico # Path to your favicon
