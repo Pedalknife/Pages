@@ -1,0 +1,6 @@
+# Site settings
+title: Your Cybersecurity Portfolio
+description: A showcase of my cybersecurity projects and skills.
+
+# Build settings
+theme: jekyll-theme-cayman # Choose a theme for your GitHub Pages site
